@@ -12,7 +12,7 @@ public class Human {
 
     public static void main(String[] args) {
         Human detail1 = new Human();
-        detail1.name="Prakash";
+        detail1.name="Vedant";
         detail1.age= 32;
         detail1.height=" 5 feet 6 inches";
         detail1.individualDetail();
