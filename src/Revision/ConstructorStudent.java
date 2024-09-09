@@ -33,5 +33,10 @@ public class ConstructorStudent {
         StudentDetail detail3 = new StudentDetail("Sohan Gope" , "EEE" , "SMEC");
         detail3.getStudentDetail();
 
+        System.out.println("----------------------------");
+
+        StudentDetail detail4 = new StudentDetail("Manzar" , "Mechanical" , "SMIC");
+        detail4.getStudentDetail();
+
     }
 }
