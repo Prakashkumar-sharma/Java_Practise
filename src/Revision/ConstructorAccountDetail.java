@@ -7,7 +7,7 @@ class AccountDetail{
 
 
     public void setAccountDetail(){
-        customerName = "Prakash";
+        customerName = "Rohit";
         accountNumber = 12345;
         transactionId = "ABCDE567431234";
         availableBalance = 10000;
