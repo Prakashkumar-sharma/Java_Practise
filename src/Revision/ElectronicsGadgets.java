@@ -40,5 +40,13 @@ public class ElectronicsGadgets {
         gadget3.color = "Black";
         gadget3.details();
 
+        System.out.println("-------------------------------");
+
+        Gadgets gadget4 = new Gadgets();
+        gadget4.name = "Mobile";
+        gadget4.brand = "Samsung";
+        gadget4.size = "5 inches";
+        gadget4.color = "Black";
+        gadget4.details();
     }
 }
