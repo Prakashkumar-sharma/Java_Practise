@@ -1,0 +1,17 @@
+package corejava;
+class X{
+    int i = 10;
+
+    X(int i){
+        System.out.println(" Local variable : " + i);
+        System.out.println(" Class level variable : " + this.i);
+    }
+
+}
+
+
+public class Instancevariableex1 {
+    public static void main(String[] args) {
+        X value = new X(20);
+    }
+}
