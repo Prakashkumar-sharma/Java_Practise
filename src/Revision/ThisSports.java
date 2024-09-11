@@ -31,7 +31,7 @@ public class ThisSports {
         System.out.println("------------------------------");
 
         Sports player2 = new Sports();
-        player2.setName("Niraj Chopra");
+        player2.setName("Neeraj Chopra");
         player2.setSportsName("Javelin");
         System.out.println("Player Name : " + player2.getName());
         System.out.println("Sport  Name : " + player2.getSportsName());
