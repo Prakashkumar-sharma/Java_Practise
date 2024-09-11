@@ -33,5 +33,10 @@ public class Banking {
 
         BankDetail customer3 = new BankDetail("Deepak" , 67483948 , "tra9484859595" , 50000);
         customer3.getBankDetail();
+
+        System.out.println("-----------------------------------------");
+
+        BankDetail customer4 = new BankDetail("Gaurav" , 67483948 , "def9383834899" , 25000);
+        customer4.getBankDetail();
     }
 }
