@@ -7,7 +7,7 @@ class AccountDetail{
 
 
     public  AccountDetail(){
-        customerName = "Rohit";
+        customerName = "Mukesh";
         accountNumber = 12345;
         transactionId = "ABCDE567431234";
         availableBalance = 10000;
