@@ -6,7 +6,7 @@ class AccountDetail{
     int availableBalance;
 
 
-    public void setAccountDetail(){
+    public  AccountDetail(){
         customerName = "Rohit";
         accountNumber = 12345;
         transactionId = "ABCDE567431234";
@@ -24,7 +24,7 @@ class AccountDetail{
 public class ConstructorAccountDetail {
     public static void main(String[] args) {
         AccountDetail detail = new AccountDetail();
-        detail.setAccountDetail();
+       // detail.AccountDetail();
         detail.getAccountDetail();
 
     }
