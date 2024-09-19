@@ -2,9 +2,8 @@ package Collection.Set;
 
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.ListIterator;
 
-public class NamesHS {
+public class Names {
     public static void main(String[] args) {
         HashSet  names = new HashSet();
         names.add("Prakash");
@@ -46,20 +45,18 @@ public class NamesHS {
 
         System.out.println("-------------------------------");
 
-//        for (int i = 0; i < names.size() ; i++){
-//            System.out.println(names.get(i));
-//        }
-
         for (Object object : names){
             System.out.println(object);
         }
 
         System.out.println("-----------------------------");
 
-        Iterator it = names.iterator();
-        while (it.hasNext()){
-            System.out.println(it.next());
+        Iterator identity = names.iterator();
+        while (identity.hasNext()){
+            System.out.println(identity.next());
         }
+
+
 
 
 
